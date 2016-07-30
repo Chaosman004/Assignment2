@@ -1,16 +1,16 @@
 ﻿@using COMP2007_S2016_Lesson10C.Models
-@model IEnumerable<FoodType>
+@model IEnumerable<Genre>
 @{
     ViewBag.Title = "Index";
 
 }
 <h3>Menu</h3>
 <p>
-    Select @Model.Count()
-    genres:
+    Select from @Model.Count()
+    genres: 
 </p>
 <ul>
-    @foreach (FoodType item in Model)
+    @foreach (Genre item in Model)
     {
         <li>@Html.ActionLink(item.Name, "Browse", new { genre = item.Name })</li>
     }

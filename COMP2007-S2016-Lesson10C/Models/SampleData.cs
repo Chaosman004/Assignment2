@@ -6,27 +6,17 @@ using System.Data.Entity;
 
 namespace COMP2007_S2016_Lesson10C.Models
 {
-    public class SampleData : DropCreateDatabaseIfModelChanges<MenuContext>
+    public class SampleData : DropCreateDatabaseIfModelChanges<MusicStoreContext>
     {
-        protected override void Seed(MenuContext context)
+        protected override void Seed(MusicStoreContext context)
         {
-            var foodtype = new List<FoodType>
+
+            var genres = new List<Genre>
             {
-                new FoodType {Name = "Appetizer" },
-                new FoodType {Name = "Main Course" },
-                new FoodType {Name = "Desserts" },
-                new FoodType {Name = "Beverages" },
-            };
-
-
-
-
-             var genres = new List<Genre>
-            {
-                new Genre { Name = "Rock" },
-                new Genre { Name = "Jazz" },
-                new Genre { Name = "Metal" },
-                new Genre { Name = "Alternative" },
+                new Genre { Name = "Appetizer" },
+                new Genre { Name = "Main Course" },
+                new Genre { Name = "Desserts" },
+                new Genre { Name = "Beverages" },
                 new Genre { Name = "Disco" },
                 new Genre { Name = "Blues" },
                 new Genre { Name = "Latin" },

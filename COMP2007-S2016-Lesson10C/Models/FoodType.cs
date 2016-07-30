@@ -27,6 +27,5 @@ namespace COMP2007_S2016_Lesson10C.Models
         public virtual int FoodTypeId { get; set; }
         public virtual string Name { get; set; }
         public virtual string Description { get; set; }
-        public virtual List<Album> Albums { get; set; }
     }
 }

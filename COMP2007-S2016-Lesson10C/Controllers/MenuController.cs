@@ -17,9 +17,9 @@ namespace COMP2007_S2016_Lesson10C.Controllers
         // GET: /Menu/
         public ActionResult Index()
         {
-            List<FoodType> foodtypes = storeDB.FoodTypes.ToList();
+            List<Genre> foodtype = storeDB.Genres.ToList();
 
-            return View(foodtypes);
+            return View(foodtype);
         }
         //
         // GET: /Menu/Browse?genre=Disco
