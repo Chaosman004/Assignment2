@@ -197,6 +197,8 @@
     <Content Include="Assets\images\home-showcase.png" />
     <Content Include="Assets\images\logo.png" />
     <Content Include="Assets\images\placeholder.gif" />
+    <Content Include="Assets\images\resturant1.jpg" />
+    <Content Include="Assets\images\resturant1thumb.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />

@@ -1,11 +1,14 @@
 ﻿@using COMP2007_S2016_Lesson10C.Models
-@model IEnumerable<Genre>
+@model IEnumerable<Album>
+
+@*@model Genre*@
+
 @{
     ViewBag.Title = "Index";
 
 }
 <h3>Menu</h3>
-<p>
+@*<p>
     Select from @Model.Count()
     genres: 
 </p>
@@ -13,5 +16,15 @@
     @foreach (Genre item in Model)
     {
         <li>@Html.ActionLink(item.Name, "Browse", new { genre = item.Name })</li>
+        
+    }
+</ul>*@
+
+<ul>
+    @foreach (Album album in Model)
+    {
+        <li>
+            @Html.ActionLink(album.Title, "Details", new { id = album.AlbumId })
+        </li>
     }
 </ul>

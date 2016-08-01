@@ -17,9 +17,14 @@ namespace COMP2007_S2016_Lesson10C.Controllers
         // GET: /Menu/
         public ActionResult Index()
         {
-            List<Genre> foodtype = storeDB.Genres.ToList();
 
-            return View(foodtype);
+
+            List<Album> food = storeDB.Albums.ToList();
+            return View(food);
+
+            //List<Genre> foodtype = storeDB.Genres.ToList();
+
+            //return View(foodtype);
         }
         //
         // GET: /Menu/Browse?genre=Disco

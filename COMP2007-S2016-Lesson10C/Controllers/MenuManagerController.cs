@@ -113,7 +113,7 @@ namespace COMP2007_S2016_Lesson10C.Controllers
             return View(album);
         }
 
-        // POST: MenuManager/Delete/5
+        // POST: MenufManager/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
