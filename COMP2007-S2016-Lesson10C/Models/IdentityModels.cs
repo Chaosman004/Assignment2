@@ -3,7 +3,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: not used as there are no users, or accounts to track
+*/
 namespace COMP2007_S2016_Lesson10C.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.

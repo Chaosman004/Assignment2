@@ -10,6 +10,11 @@ using COMP2007_S2016_Lesson10C.Models;
 
 namespace COMP2007_S2016_Lesson10C.Controllers
 {
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: this cotrolls the menu backend
+*/
     public class MenuManagerController : Controller
     {
         private MenuContext db = new MenuContext();

@@ -4,7 +4,13 @@ namespace COMP2007_S2016_Lesson10C.Models
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: was set to replace musicstoreContext, 
+ *              but instead handles half of the work
+*/
+    
     public partial class MenuContext : DbContext
     {
         public MenuContext()

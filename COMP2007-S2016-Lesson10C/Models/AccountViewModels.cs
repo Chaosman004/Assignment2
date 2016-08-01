@@ -1,6 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: this does nothing as there are no accounts
+*/
 namespace COMP2007_S2016_Lesson10C.Models
 {
     public class ExternalLoginConfirmationViewModel

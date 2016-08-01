@@ -1,6 +1,10 @@
-﻿
+﻿@*
+    Author: Robert Page 200281838
+    Website: http://robcomp2007assignment2.azurewebsites.net/
+    Description: this loads and renders the home page
+*@
 @{
-    ViewBag.Title = "Index";
+        ViewBag.Title = "Index";
 }
 
 <h2>Welcome to the MVC Resturant!</h2>
@@ -8,7 +12,6 @@
 <img src="~/Assets/images/resturant1.jpg" alt="Resturant"/>
 <br />
 <br />
-<!--<img src="~/Assets/images/resturant1thumb.jpg" alt="Resturant Thumbnail"/>-->
 
 <p>
     <a href="@Url.Action("../Menu")" class="btn btn-default" title="Menu"><i class="fa fa-book"></i> View The Menu</a>

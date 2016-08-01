@@ -1,5 +1,10 @@
 ﻿@model IEnumerable<COMP2007_S2016_Lesson10C.Models.Album>
-
+@*
+    Author: Robert Page 200281838
+    Website: http://robcomp2007assignment2.azurewebsites.net/
+    Description: none of the store manage files are supposed to do anything, 
+                but can still be reached through the search bar
+*@
 @helper Truncate(string input, int length)
 {
 if (input.Length <= length)
@@ -38,6 +43,9 @@ else
         <th>
             @Html.DisplayNameFor(model => model.AlbumArtUrl)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AlbumThumbUrl)
+        </th>
         <th></th>
     </tr>
 
@@ -58,6 +66,9 @@ else
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AlbumArtUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumThumbUrl)
             </td>
             <td>
                 <a href="@Url.Action("Edit", new { id = item.AlbumId })" class="btn btn-default" title="Edit"><i class="fa fa-pencil"></i></a>

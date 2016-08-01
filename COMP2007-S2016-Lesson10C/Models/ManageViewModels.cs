@@ -2,7 +2,11 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: not used as there are no user views to manage
+*/
 namespace COMP2007_S2016_Lesson10C.Models
 {
     public class IndexViewModel

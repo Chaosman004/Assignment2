@@ -9,7 +9,11 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using COMP2007_S2016_Lesson10C.Models;
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: this does nothing as there are no user acounts
+*/
 namespace COMP2007_S2016_Lesson10C.Controllers
 {
     [Authorize]

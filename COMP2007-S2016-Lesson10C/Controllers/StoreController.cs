@@ -7,7 +7,11 @@ using COMP2007_S2016_Lesson10C.Models;
 
 namespace COMP2007_S2016_Lesson10C.Controllers
 {
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: this shoud not do anything but has been left incase of unexpected errors
+*/
     public class StoreController : Controller
     {
 

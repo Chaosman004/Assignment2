@@ -194,11 +194,25 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\breadSticks.jpg" />
+    <Content Include="Assets\images\breadSticksThumbnail.jpg" />
+    <Content Include="Assets\images\burger.jpg" />
+    <Content Include="Assets\images\burgerThumbnail.jpg" />
+    <Content Include="Assets\images\caesarSalad.jpg" />
+    <Content Include="Assets\images\caesarSaladThumbnail.jpg" />
     <Content Include="Assets\images\home-showcase.png" />
+    <Content Include="Assets\images\iceCream.jpg" />
+    <Content Include="Assets\images\iceCreamThumbnail.jpg" />
     <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\Map.jpg" />
+    <Content Include="Assets\images\pizza.jpg" />
+    <Content Include="Assets\images\pizzaThumbnail.jpg" />
     <Content Include="Assets\images\placeholder.gif" />
     <Content Include="Assets\images\resturant1.jpg" />
     <Content Include="Assets\images\resturant1thumb.jpg" />
+    <Content Include="Assets\images\resturant2.jpg" />
+    <Content Include="Assets\images\water.jpg" />
+    <Content Include="Assets\images\waterThumbnail.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -280,6 +294,7 @@
     <Content Include="Views\Menu\Index.cshtml" />
     <Content Include="Views\Menu\Browse.cshtml" />
     <Content Include="Views\Menu\Details.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

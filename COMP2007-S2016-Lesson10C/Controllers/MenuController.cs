@@ -7,7 +7,11 @@ using COMP2007_S2016_Lesson10C.Models;
 
 namespace COMP2007_S2016_Lesson10C.Controllers
 {
-
+/*
+ * Author: Robert Page 200281838
+ * Website: http://robcomp2007assignment2.azurewebsites.net/
+ * Description: this displays the menu views
+*/
     public class MenuController : Controller
     {
 
@@ -22,9 +26,6 @@ namespace COMP2007_S2016_Lesson10C.Controllers
             List<Album> food = storeDB.Albums.ToList();
             return View(food);
 
-            //List<Genre> foodtype = storeDB.Genres.ToList();
-
-            //return View(foodtype);
         }
         //
         // GET: /Menu/Browse?genre=Disco

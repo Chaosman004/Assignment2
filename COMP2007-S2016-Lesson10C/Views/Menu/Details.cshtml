@@ -1,21 +1,23 @@
 ﻿@using COMP2007_S2016_Lesson10C.Models
 @model Album
-
+@*
+    Author: Robert Page 200281838
+    Website: http://robcomp2007assignment2.azurewebsites.net/
+    Description: this file shows the user the food in greater detail
+*@
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Album: @Model.Title</h2>
-<hr />
-<ul>
-    <li>Genre: @Model.Genre.Name </li>
-    <li>Artist: @Model.Artist.Name </li>
-    <li>Price: @Model.Price </li>
-    <li>
-        Album Art:
+<h2>@Model.Genre.Name: @Model.Title</h2>
+
         <img src="@Model.AlbumArtUrl" alt="@Model.Title" />
-        
-    </li>
-</ul>
+
+<h1>Price: $@Model.Price</h1>
+    
+
+<p>
+    <a href="@Url.Action("../Menu")" class="btn btn-default" title="Menu"><i class="fa fa-book"></i> Return To The Menu</a>
+</p>
 @*<a href="@Url.Action("Edit","StoreManager", new { id = Model.AlbumId })" class="btn btn-default"><i class="fa fa-pencil"></i> Edit</a>*@
 
